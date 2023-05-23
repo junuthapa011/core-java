@@ -1,0 +1,27 @@
+1. Shoes
+- Size
+- Color
+- Brand
+- Price
+- Style
+- Material
+
+2. Printer
+- Model
+- Connection type
+- Paper size
+- Ink type
+
+3. Television
+- Resolution
+- Number of HDMI ports
+- Smart features
+- Audio Output
+
+4. Desk
+- Dimension
+- Material
+- Style
+- Storage
+- Adjustable height
+
