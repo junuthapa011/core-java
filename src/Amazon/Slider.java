@@ -2,9 +2,9 @@ package Amazon;
 
 public class Slider {
     String imageURL;
-    Long sliderID;
+    long sliderID;
     String sliderURL;
-    Long orderID;
+    long orderID;
 
     /*
      Image URL

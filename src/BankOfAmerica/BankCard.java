@@ -5,7 +5,7 @@ public class BankCard {
     String imageURL;
     String cardType;
     String bonusType;
-    Boolean hasAnnualFee;
+    boolean hasAnnualFee;
     String cardInfo;
     String description;
     String cardURL;

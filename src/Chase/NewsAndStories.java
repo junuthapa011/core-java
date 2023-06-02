@@ -4,9 +4,9 @@ public class NewsAndStories {
 
     String imageURL;
     String title;
-    Boolean isExternal;
+    boolean isExternal;
     String URL;
-    Long ID;
+    long ID;
     String coverImage;
     String coverTitle;
     String coverSubtitle;

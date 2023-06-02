@@ -3,7 +3,7 @@ package Chase;
 public class NewsAndStoriesMenu {
     String menuName;
     String menuDescription;
-    Long menuID;
+    long menuID;
 
     /*
         Menu name:

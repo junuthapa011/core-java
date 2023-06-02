@@ -1,10 +1,11 @@
 package Daraz;
 
 public class Slider {
-    Long sliderID;
+    long sliderID;
     String imageURL;
     String sliderURL;
-    Long orderID;
+    long orderID;
+
     /*
         Slider ID
         Image
