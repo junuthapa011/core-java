@@ -1,0 +1,8 @@
+7. Different types of Inheritance in Java:
+	- Single Inheritance: There is one parent class and one child class. The child inherits the properties and behavior of a single-parent class.
+
+	- Multi-level Inheritance: One class is derived from another class and that class is also derived from another class, which creates a multi-level inheritance.
+
+	- Hierarchical Inheritance: There is a single parent class and its multiple child class.
+
+	- Hybrid Inheritance: It consists of two or more types of inheritance. For example: A class is inherited from its parent class which then has multiple child classes.

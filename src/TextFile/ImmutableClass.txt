@@ -1,0 +1,5 @@
+An immutable class creates an object that cannot be changed once it's created.
+To create an immutable class:
+- we don't provide setter methods
+- we make all fields final and private
+- we declare the class as final
