@@ -1,6 +1,6 @@
 package instagramPosts;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class InstagramPost {
     //initializing the variables
@@ -8,9 +8,10 @@ public class InstagramPost {
     private long id;
     private String postImageUrl;
     private String postCaption;
+    private LocalDateTime postedDateTime;
 
     // Setters and getters
-    public void setName(){
+    public void setName(String name){
         this.name=name;
     }
 
@@ -18,7 +19,7 @@ public class InstagramPost {
         return name;
     }
 
-    public void setId(){
+    public void setId(long id){
         this.id=id;
     }
 
@@ -26,7 +27,7 @@ public class InstagramPost {
         return id;
     }
 
-    public void setPostImageUrl(){
+    public void setPostImageUrl(String postImageUrl){
         this.postImageUrl=postImageUrl;
     }
 
@@ -34,7 +35,7 @@ public class InstagramPost {
         return postImageUrl;
     }
 
-    public void setPostCaption(){
+    public void setPostCaption(String postCaption){
         this.postCaption=postCaption;
     }
 
@@ -42,6 +43,23 @@ public class InstagramPost {
         return postCaption;
     }
 
+    public void setPostedDateTime(LocalDateTime postedDateTime) {
+        this.postedDateTime = postedDateTime;
+    }
+
+    public LocalDateTime getPostedDateTime() {
+        return postedDateTime;
+    }
 
 
+    @Override
+    public String toString() {
+        return "InstagramPost{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", postImageUrl='" + postImageUrl + '\'' +
+                ", postCaption='" + postCaption + '\'' +
+                ", postedDateTime=" + postedDateTime +
+                '}';
+    }
 }
