@@ -1,0 +1,10 @@
+12. What are new feature in Java 11 and Java 17.
+
+ Java 11:
+ - var keyword for Lambda expressions
+ - new HTTP client API was introduced as a replacement for the deprecated HttpURL connection class
+ - @Deprecated annotation
+ - isBlank() method   --- returns boolean value if empty strings and strings with white spaces
+
+ Java 17:
+ - Foreign function and memory API--- allows accessing code from outside the JVM and manage memory out of the heap.

@@ -1,0 +1,6 @@
+13. Difference between Inheritance and aggregation
+
+- Inheritance represents "is-a" relationship and aggregation represents a "has-a" relationship.
+- Inheritance is a parent-child relationship and Aggregation is a container-object relationship
+- Inheritance is like a child inheriting features from the parents whereas aggregation is like a class uses an object but the object can exist independently as well
+
