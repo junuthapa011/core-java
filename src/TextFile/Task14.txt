@@ -1,0 +1,8 @@
+14. What do you mean by IOC (Inversion of control) and Dependency Injection? What are the difference between them?
+
+- IOC container manages a bean's scope
+- Java components that are instantiated by the IOC container are called beans
+- By implementing IOC, a software consumer get more controls over the software, instead of being controlled or having less options.
+
+- Dependency injection means passing a dependent object as a parameter to a method, rather than having the method create the dependent object.
+- Method does not have a direct dependency on a particular implementation.
