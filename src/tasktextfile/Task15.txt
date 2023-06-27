@@ -1,0 +1,6 @@
+15. What are annotations in Java?
+
+- Annotations are a form of metadata that provide additional information about classes, methods, fields, and other program elements.
+- code documentation, compiler instructions
+- runtime behavior customization
+- metadata for frameworks and tools
