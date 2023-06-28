@@ -1,6 +1,7 @@
 package School;
 
 public class SchoolApplication {
+
     public static void main(String[] args) {
         Student junu= new Student();
         junu.setName("Junu Thapa");
