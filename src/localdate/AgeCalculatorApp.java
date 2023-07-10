@@ -17,16 +17,13 @@ public class AgeCalculatorApp {
         System.out.print("Enter date of birth(yyyy-mm-dd): ");
         String birthdate = scan.next();
 
-        DateTimeFormatter formatter=DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         DOB.setDateOfBirth(LocalDate.parse(birthdate, formatter));
 
         LocalDate currentday = LocalDate.now();
 
-        Period age = Period.between(DOB.getDateOfBirth(),currentday);
+        Period age = Period.between(DOB.getDateOfBirth(), currentday);
         System.out.println(age.getYears());
-
-
-
 
 
     }
